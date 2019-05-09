@@ -1,0 +1,33 @@
+{
+  "name": "connectomongodb",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.15.1"
+  },
+  "description": "A simple mongodb signup email list application",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./bin/www"
+  },
+  "author": "rieder",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riederleeDEV/MongodbSignUpForm.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "gulp": "^4.0.2",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.4",
+    "nodemon": "^1.18.11",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
